@@ -1,0 +1,317 @@
+.careers {
+    display: flex;
+    flex-direction: column;
+    gap: 130px;
+}
+
+/* LANDING SECTION  */
+
+.landing-container {
+    background-image: url('https://wallpaperaccess.com/thumb/4452961.jpg');
+    background-size: cover;
+    background-position: bottom;
+    background-blend-mode: multiply;
+    background-color: #91949a;
+    height: 700px;
+}
+
+.landing-container .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 50%;
+    gap: 30px;
+    height: 100%;
+    color: whitesmoke;
+    padding: 12%;
+}
+
+.landing-container .content h1 {
+    font-size: 5.5rem;
+}
+
+.landing-container .content p {
+    font-size: 2rem;
+}
+
+.landing-container .content button {
+    background-color: whitesmoke;
+    padding: 2%;
+    font-size: 2rem;
+    border-radius: 5px;
+}
+
+
+/* COMPANY STATS SECITOIN  */
+
+.stats {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.stats .container {
+    color: black;
+    text-align: center;
+}
+
+.stats .container h1 {
+    font-weight: 900;
+}
+
+.stats .container p {
+    text-transform: capitalize;
+}
+
+/* Locations  */
+
+.locations {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: auto;
+    text-align: center;
+    gap: 100px;
+}
+
+.locations .images img {
+    height: 300px;
+    width: 100%;
+}
+
+.locations .images h1 {
+    color: black;
+}
+
+/* Culture  */
+
+.culture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    padding: 1%;
+    gap: 40px;
+}
+
+.culture .images img {
+    width: 100%;
+    height: 320px;
+}
+
+.culture .content {
+   width: 55%;
+}
+
+.culture .content .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.content .container .inner-container { 
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: grey;
+}
+
+.culture h2 {
+    font-weight: 800;
+}
+
+/* OPTIONS SECTION */
+
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.options-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    gap: 20px;
+}
+
+.options-container .option {
+    width: 35%;
+}
+
+.options-container .option img {
+    height: 100%;
+    width: 100%;
+   
+}
+
+.info {
+    width: 60%;
+    padding: 1%;
+    background-color: #e4e4e6;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+    color: black;
+}
+
+.info .subheading {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.options-container p {
+    width: 70%;
+    line-height: 2;
+}
+
+.info h2 {
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.info .subheading .technologies {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.info .subheading .container li {
+    list-style-type: disc;
+}
+
+.info a {
+    width: 15%;
+    padding: 1% 5%;
+    background-color: whitesmoke;
+    color: black;
+} 
+
+.info a:hover {
+    cursor: pointer;
+    transition: .3s;
+    background-color: rgb(221, 221, 221);
+}
+
+@media screen and (max-width: 767px){
+    .careers {
+        gap: 70px;
+    }
+    .landing-container .content {
+        width: 100%;
+        justify-content: center;
+        padding: 2%;
+    }
+    .stats {
+        padding: 2%;
+    }
+    .locations {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        text-align: start;
+    }
+    .locations .images h1 {
+        padding: 1.5%;
+    }
+    .culture{
+        flex-direction: column;
+        padding: 0;
+    }
+    .culture .content {
+        width: 100%;
+    }
+    .culture .content .container {
+        margin-top: 5%;
+        padding: 2%;
+    }
+    .options-container {
+        flex-direction: column;
+        gap: 0;
+    }
+    .options-container .option {
+        width: 100%;
+    }
+    .info {
+        width: 100%;
+        text-align: center;
+        padding: 1.5%;
+        order: 2;
+    }
+    .options-container p {
+        width: 100%;
+    }
+    .info .subheading {
+        justify-content: space-evenly;
+    }
+    .info .subheading .technologies {
+        text-align: center;
+        align-items: center;   
+    }
+    .options-container .option img {
+        order: 1;
+    }
+    .info a {
+        width: 30%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .careers {
+        gap: 70px;
+    }
+    .landing-container .content {
+        width: 100%;
+        justify-content: center;
+    }
+    .stats {
+        padding: 2%;
+    }
+    .locations {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        text-align: start;
+    }
+    .locations .images h1 {
+        padding: 1.5%;
+    }
+    .culture{
+        flex-direction: column;
+        padding: 0;
+    }
+    .culture .content {
+        width: 100%;
+    }
+    .culture .content .container {
+        margin-top: 5%;
+        padding: 2%;
+    }
+    .options-container {
+        flex-direction: column;
+        gap: 0;
+    }
+    .options-container .option {
+        width: 100%;
+    }
+    .info {
+        width: 100%;
+        text-align: center;
+        padding: 1.5%;
+        order: 2;
+    }
+    .options-container p {
+        width: 100%;
+    }
+    .info .subheading {
+        justify-content: space-evenly;
+    }
+    .info .subheading .technologies {
+        text-align: center;
+        align-items: center;   
+    }
+    .options-container .option img {
+        order: 1;
+    }
+}

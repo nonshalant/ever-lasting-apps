@@ -1,0 +1,228 @@
+.navigation{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    z-index: 99;
+    transition: .4s;
+}
+.intersectingTrue { 
+    position: sticky;
+    top: -300px;
+    width: 100%;
+    z-index: 99;
+    background-color: transparent;
+    transition: .4s;
+
+}
+.navigation_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigation_links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    margin-right: 5%;
+}
+
+.navigation_links a:hover{
+    cursor: pointer;
+    border-bottom: 2px solid blue;
+}
+
+.sub_navigation{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(134, 134, 134);
+    border-top: 6px solid rgb(58, 58, 192);
+    box-shadow: 1px 1px 1px black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 1.4%;
+    padding-right: 5%;
+    margin-top: 1%;
+    color: black;
+    position: absolute;
+    top: 100px;
+}
+
+.sub_navigation a{
+    color: rgb(58, 58, 192);
+}
+
+.navigation_links a:hover{
+    cursor: pointer;
+}
+
+.navigation_links li{
+    font-weight: 900;
+    color: black;
+
+}
+
+.navigation_links a{
+    color: black;
+}
+
+.expertise_dropDown {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.expertise_dropDown li{
+    background-color: white;
+    border: 1px solid white;
+    font-weight: 900;
+    color: black;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.expertise_dropDown .active{
+    border: 1px solid black;
+    background-color: white;
+    border: 1px solid white;
+    font-weight: 900;
+    color: rgb(58, 58, 192);
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.expertise_dropDown:hover{
+    cursor: pointer;
+}
+
+.businessLogo{
+    width: 150px;
+}
+
+.contact{
+    background-color: rgb(200, 36, 36);
+    border-radius: 10px;
+    padding: 1.5%;
+}
+
+.contact a{
+    color: whitesmoke;
+}
+
+/* MOBILE  */
+
+.mobile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-right: 2%;
+}
+
+.mobile_nav_active {
+    position: absolute;
+    background-color: whitesmoke;
+    top: 155px;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    text-align: start;
+}
+
+.mobile_container {
+    padding: 1%;
+    height: 100%;
+}
+
+.mobile_container h1 {
+    font-size: 3rem;
+}
+
+.mobile_nav_links {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-around;
+    height: 65%;
+    font-size: 1.7rem;
+    margin-top: 3%;
+}
+
+.mobile_nav_links > * {
+    width: 85%;
+    padding-bottom: 4%;
+    color: rgb(58, 58, 192);
+}
+
+.mobile_nav_links li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.mobile_sub_navigation {
+    position: absolute;
+    top: 0px;
+    background-color: whitesmoke;
+    width: 100%;
+    height: 100%;
+    padding: 1%;
+}
+
+.mobile_sub_links {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-around;
+    height: 50%;
+    font-size: 1.7rem;
+    margin-top: 3%;
+}
+
+.mobile_title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 2%;
+}
+
+.mobile_sub_links > * {
+    width: 85%;
+    padding-bottom: 4%;
+}
+
+.mobile_sub_links a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: rgb(58, 58, 192);
+} 
+
+.hamburger {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mobile_contact {
+    width: fit-content;
+    background-color: rgb(200, 36, 36);
+    padding: 2%;
+    border-radius: 10px;
+    color: whitesmoke;
+}
+
+@media screen and (max-width: 1023px) {
+    .businessLogo {
+        width: 150px;
+    }
+   .navigation {
+    border-bottom: 1px solid rgb(68, 68, 224, 0.2);
+
+   }
+}

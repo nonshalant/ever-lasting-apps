@@ -1,0 +1,226 @@
+.process_container_outer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.process_container_outer h1 {
+    text-align: center;
+}
+
+.webdev{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.webdev_container{
+    padding: 1.5%;
+}
+
+.url_address{
+    display: flex;
+    gap: 5px;
+}
+
+.webdev_landing{
+    padding-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.left_side{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.webdev_landing .left_side h1{
+    font-size: 5rem;
+    font-weight: 900;
+}
+
+.webdev_landing .left_side h2{
+    font-size: 2rem;
+}
+
+.left_side_text {
+    line-height: 2;
+}
+
+.right_side{
+    width: 60%;
+    height: 550px;
+}
+
+.right_side img{
+    height: 90%;
+    width: 100%;
+}
+
+.process_container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.step {
+    border-right: 1px solid rgb(30, 30, 30);
+    border-left: 1px solid rgb(30, 30, 30);
+    border-bottom: 1px solid rgb(30, 30, 30);
+    border-top: 1px solid rgb(30, 30, 30);
+    border-radius: 50px;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;   
+    width: 30%;
+    /* height: 500px; */
+}
+
+.step h2 {
+    font-size: 2rem;
+    font-weight: 900;
+    width: 100%;
+    padding: 1.5%;
+    text-align: center;
+}
+
+.step p {
+    font-size: 1.7rem;
+    color: black;
+    line-height: 1.9;
+    text-align: center;
+}
+
+.retainer_price {
+    text-decoration: underline double;
+}
+
+.consultaion_image_container {
+    width: 60%;
+    margin: auto;
+}
+
+.consultaion_image_container img {
+    border-radius: 80px;
+}
+
+.webdev-contact {
+    width: 45%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.webdev-contact h2 {
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+.webdev-contact p {
+    font-size: 2.2rem;
+    color: black;
+}
+
+.webdev-contact a {
+    display: block;
+    border: 1px solid;
+    color: whitesmoke;
+    font-size: 2rem;
+    background-color: rgb(200, 36, 36);
+    border-radius: 10px;
+    padding: 2%;
+    width: 35%;
+    margin: auto;
+}
+
+@media screen and (max-width: 767px) {
+    .webdev {
+        gap: 35px;
+    }
+    .webdev_landing {
+        padding-top: 5%;
+        flex-direction: column;
+    }
+    .webdev_landing .left_side h1 {
+        font-size: 3.5rem;
+        width: 100%;
+    }
+    .left_side {
+        width: 100%;
+    }
+    .right_side {
+        width: 100%;
+        height: auto;
+    }
+    .process_container {
+        display: flex;
+        flex-direction: column;
+        padding: 2%;
+    }
+    .step {
+        gap: 10px;
+        padding-bottom: 5%;
+        width: 95%;
+    }
+    .webdev-contact {
+        width: 95%;
+    }
+    .webdev-contact p {
+        font-size: 1.9rem;
+    }
+    .webdev-contact a {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .webdev {
+        gap: 35px;
+    }
+    .webdev_landing {
+        padding-top: 5%;
+        flex-direction: column;
+    }
+    .webdev_landing .left_side h1 {
+        font-size: 3.5rem;
+        width: 100%;
+    }
+    .left_side {
+        width: 100%;
+    }
+    .right_side {
+        width: 100%;
+        height: auto;
+    }
+    .right_side img {
+        height: 60%;
+        width: 85%;
+    }
+    .process_container {
+        display: flex;
+        flex-direction: column;
+        padding: 2%;
+    }
+    .step {
+        gap: 10px;
+        padding-bottom: 5%;
+        width: 85%;
+        text-align: center;
+    }
+    .webdev-contact {
+        width: 95%;
+    }
+    .webdev-contact p {
+        font-size: 1.9rem;
+    }
+    .webdev-contact a {
+        font-size: 1.5rem;
+    }
+}

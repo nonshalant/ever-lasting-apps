@@ -1,0 +1,558 @@
+.home_container{
+    display: flex;
+    flex-direction: column;
+    gap: 95px;
+}
+
+/* LANDING SECTION  */
+
+.landing_page_container{
+    display: flex;
+}
+
+.title {
+    padding: 1%;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.landing_page_container .title h1{
+    color: rgb(58, 58, 192);
+    font-weight: 900;
+    font-size: 4.4rem;
+}
+
+.landing_page_container .title h2{
+    font-size: 1.8rem;
+    color: black;
+}
+
+.landing_page_container .title .learn_more{
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: whitesmoke;
+    font-size: 1.5rem;
+    font-weight: 900;
+    padding: 4%;
+    width: 40%;
+}
+
+.landing_page_container .title .learn_more:hover{
+    cursor: pointer;
+    transition: .3s;
+    background-color: rgb(185, 29, 29);
+    border: 1px solid rgb(185, 29, 29);
+}
+
+.landing_page_container .title a:hover{
+    cursor:default;
+}
+
+.landing_page_container .photos{
+    background-color: grey;
+    height: 380px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1.5%;
+    gap: 15px;
+}
+
+.photos #image_one{
+    height: 35%;
+}
+
+.photos #image_two{
+    height: 65%;
+}
+
+.photos #image_three{
+    height: 45%;
+}
+
+.photos #image_four{
+    height: 55%;
+}
+
+.photos #image_five{
+    height: 50%;
+}
+
+
+
+
+/* EXPERTISE SECTION */
+
+.expertise_container{
+    padding: 2%;
+}
+
+.expertise_categories_container{
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-between;    
+}
+
+.expertise_container h2{
+    font-size: 4.2rem;
+    font-weight: 900;
+    padding-bottom: 2.2%;
+}
+
+.categories{
+    width: 22%;
+}
+
+.categories h2{
+    font-weight: 900;
+    font-size: 2.5rem;
+    padding: 2% 0;
+}
+
+.categories h3{
+    color: black;
+    padding: 2% 0;
+}
+
+.categories button{
+    background-color: white;
+    border: none;
+    color: rgb(58, 58, 192);
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.categories button:hover{
+    cursor: pointer;
+}
+
+.categories a:hover{
+    cursor: default;
+}
+
+/* About */
+
+.about_container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about_continaer .image_container{
+    background-color:gray;
+    height: 400px;
+    width: 30%;
+}
+
+.about_container .image_container img{
+    position: relative;
+    left: 50px;
+    padding-top: 50px;
+}
+
+.about_container .content{
+    width: 50%;
+    margin-right: 5.5%;
+    padding-top: 3.5%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about_container .content button{
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: whitesmoke;
+    font-size: 1.5rem;
+    font-weight: 900;
+    padding: 2.5%;
+    width: 40%;
+}
+
+.about_container .content button{
+    cursor: pointer;
+}
+
+/* REPUTATION  SECTION*/
+
+.reputation_container{
+    display: flex;
+    justify-content: space-evenly;    
+}
+
+.reputation_container .content{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+.reputation_container .images{
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 10px;
+}
+
+.reputation_container .images img {
+    height: 225px;
+    width: 100%;
+}
+
+.reputation_container .content a {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* Reviews  */
+
+.review {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    gap: 20px
+}
+
+.reviews {
+    width: 100%;
+    overflow-x: scroll;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);;
+}
+
+.reviews_container_outer {
+    white-space: nowrap;
+}
+
+.reviews_container_outer img {
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    margin-right: 10px;
+}
+
+/* LETS GET STARTED  */
+
+.lgs_container{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.lgs_container .lgs_form{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1.5%;
+    padding-top: 2.5%;
+    width: 80%;
+    background-color: gray;
+}
+
+.lgs_container .content{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.lgs_container .contact_information{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 1.8rem;
+    padding-top: 2.5%;
+}
+
+.contact_information strong{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact_information a{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.content .inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 1.9% 0;
+    color: black;
+    margin-bottom: 2%;
+}
+
+.content .inputs input{
+    padding: 1.8%;
+    font-size: 1.6rem;
+    border-radius: 4px;
+    border: 1.5px solid black;
+}
+
+.content .inputs textarea{
+    padding: 1.8%;
+    font-size: 1.6rem;
+    border-radius: 4px;
+    border: 1.5px solid black;
+}
+
+.content .inputs textarea:focus{
+    border: 1.5px solid blue;
+    transition: .5s;
+}
+
+.content .inputs input:focus{
+    border: 1.5px solid blue;
+    transition: .5s;
+}
+
+.lgs_form button{
+    background-color: red;
+    border-radius: 4px;
+    padding: 1.9%;
+    font-size: 2rem;
+    color: white;
+}
+
+@media screen and (max-width: 767px) {
+    .home {
+        overflow-x: hidden;
+    }
+    .home_container {
+        gap: 50px;
+    }
+    .landing_page_container {
+        display: flex;
+        flex-direction: column;
+    }
+    .landing_page_container .photos {
+        height: 150px;
+    }
+    .title {
+        width: 98%;
+        margin: auto;
+        gap: 10px;
+        padding-bottom: 7%;
+    }
+    .landing_page_container .title h1 {
+        font-size: 3.5rem;
+    }
+    .landing_page_container .title h2 {
+        font-size: 1.8rem;
+    }
+
+    /* Expertise  */
+
+    .expertise_container {
+        margin-top: 10%;
+    }
+    .expertise_container h1 {
+        font-size: 3.5rem;
+    }
+    .expertise_categories_container {
+        flex-direction: column;
+        margin-top: 5%;
+        gap: 30px;
+    }
+    .categories {
+        width: 100%;
+    }
+    .categories h2 {
+        font-size: 2rem;
+    }
+
+    /* About  */
+
+    .about_container {
+        flex-direction: column;
+    }
+    .about_container .content {
+        width: 100%;        padding: 2%;
+    }
+    
+    /* Reputation  */
+
+    .reputation_container {
+        flex-direction: column;
+    }
+    .reputation_container .content {
+        width: auto;
+        padding: 2%;
+    }
+    .reputation_container .images {
+        width: 100%;
+        margin-top: 3%;
+    }
+    .reputation_container h1 {
+        width: 75%;
+    }
+
+    /* reviews  */
+
+    .review {
+        width: 100%;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .reviews { 
+        order: 2;
+    }
+
+    .review_title {
+        order: 1;
+        width: 75%;
+        padding-left: 2%;
+    }
+
+    /* Contact  */
+    
+    .lgs_container .lgs_form {
+        width: 100%;
+        flex-wrap: wrap;
+        padding-bottom: 15%;
+    }
+    .lgs_container .content {
+        width: 100%;
+    }
+    #root > div > div.home > div.home_container > div.lgs_container > div > div > div  {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10%;
+    } 
+    .content .inputs {
+        margin-top: 7%;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .home {
+        overflow-x: hidden;
+    }
+    .home_container {
+        gap: 50px;
+    }
+    .landing_page_container {
+        display: flex;
+        flex-direction: column;
+    }
+    .landing_page_container .photos {
+        height: 275px;
+    }
+    .title {
+        width: 98%;
+        margin: auto;
+        gap: 10px;
+        padding-bottom: 7%;
+    }
+    .landing_page_container .title h1 {
+        font-size: 3.5rem;
+        width: 75%;
+    }
+    .landing_page_container .title h2 {
+        font-size: 1.8rem;
+    }
+
+    /* Expertise  */
+
+    .expertise_container {
+        margin-top: 10%;
+    }
+    .expertise_container h1 {
+        font-size: 3.5rem;
+        text-align: center;
+    }
+    .expertise_categories_container {
+        flex-direction: column;
+        margin-top: 5%;
+        gap: 60px;
+        text-align: center;
+    }
+    .categories button {
+        margin: auto;
+    }
+
+    .categories {
+        width: 100%;
+    }
+    .categories h2 {
+        font-size: 2rem;
+    }
+
+    /* About  */
+
+    .about_container {
+        flex-direction: column;
+    }
+    .about_container .content {
+        width: 100%;        padding: 2%;
+    }
+    
+    /* Reputation  */
+
+    .reputation_container {
+        flex-direction: column;
+    }
+    .reputation_container .content {
+        width: auto;
+        padding: 2%;
+    }
+    .reputation_container .images {
+        width: 100%;
+        margin-top: 3%;
+    }
+    .reputation_container h1 {
+        width: 75%;
+    }
+
+    /* reviews  */
+
+    .review {
+        width: 100%;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .reviews { 
+        order: 2;
+    }
+
+    .review_title {
+        order: 1;
+        width: 75%;
+        padding-left: 2%;
+    }
+
+    /* Contact  */
+    
+    .lgs_container .lgs_form {
+        width: 100%;
+        flex-wrap: wrap;
+        padding-bottom: 15%;
+    }
+    .lgs_container .content {
+        width: 100%;
+    }
+    #root > div > div.home > div.home_container > div.lgs_container > div > div > div  {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10%;
+    } 
+    .content .inputs {
+        margin-top: 7%;
+    }
+}
