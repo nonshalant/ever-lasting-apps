@@ -1,38 +1,58 @@
-.App {
-  text-align: center;
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+    vertical-align: baseline;
+    font-family: inherit;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    }
+/* remember to define focus styles! */
+:focus {
+    outline: 0;
+    }
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    max-width:100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/*General Styles*/
+html{
+    font-size:62.5%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body{
+    font-size:1.6rem;
+    line-height:1.5;
+    color: rgb(58, 58, 192);
+    font-family: 'Raleway', sans-serif;
+    overscroll-behavior-y: none;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+a{
+    font-family: 'Roboto Mono', monospace;
+    text-decoration:none;
 }
-
-.App-link {
-  color: #61dafb;
+h1{
+    font-size:3.6rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h2 {
+    font-size: 2rem;
+    font-family: 'Raleway', sans-serif;
+}
+h3{
+    color: black;
+}
+li{
+  list-style-type: none;
+}
+section{
+    padding:4% 0;
 }

@@ -1,0 +1,132 @@
+.about_landing {
+    padding: 15%;
+    background-image: url('https://res.cloudinary.com/dyzydm9nl/image/upload/v1677868434/Ever%20Last%20Apps/photo-1531297484001-80022131f5a1_vtgkly.jpg');
+    background-size: cover;
+    background-position: right;
+    background-blend-mode: multiply;
+    background-color: rgb(117, 117, 117);
+}
+
+.about_landing .title {
+    width: 100%;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.about .content {
+    width: 75vw;
+    margin: auto;
+    color: black;
+}
+
+.about .content .left {
+    border: 1px solid rgb(209, 209, 209);
+    padding: 2%;
+    margin-top: 1%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 2px rgb(209, 209, 209);
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    line-height: 1.9;
+}
+
+.content .left .container h2 {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.left .our_services .inner_container {
+    margin-top: 5%;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    padding: 2% 1.5%;
+    gap: 20px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.inner_container .service {
+    display: flex;
+    align-items: center;
+}
+
+.our_services .inner_container p {
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    font-size: 1.5rem;
+    color: black;
+    width: 50%;
+    line-height: 4;
+}
+
+.our_services .inner_container span {
+    font-weight: 700;
+    font-size: 1.6rem;
+    text-decoration: underline;
+}
+
+.service .image {
+    width: 75%;
+}
+
+.why_choose_us span {
+    font-weight: 800;
+    text-decoration: underline;
+}
+        
+.why_choose_us .list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 2%;
+}
+
+.get_in_touch button {
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: whitesmoke;
+    font-size: 1.5rem;
+    font-weight: 900;
+    padding: 2.5%;
+    width: 20%;
+}
+
+@media screen and (max-width: 1023px) {
+    .about .content {
+        width: 95%;   
+    }
+    .left .our_services .inner_container {
+        display: flex;
+        flex-direction: column;
+    }
+    .inner_container .service {
+        flex-direction: column;
+    }
+    .our_services .inner_container p {
+        width: 100%;
+        text-align: start;
+    }
+    .service .image {
+        width: 100%;
+        order: 2;
+    }
+    #root > div > div.about > div.content > div > div.get_in_touch.container > a > button {
+        background-color: red;
+        border: 1px solid black;
+        border-radius: 10px;
+        color: whitesmoke;
+        font-size: 1.5rem;
+        font-weight: 900;
+        padding: 2.5%;
+        width: 40%;
+    }
+    #root > div > div.about > div.content > div > div.get_in_touch.container {
+        margin-bottom: 3%;
+    }
+    #root > div > div.about > div.content > div > div.get_in_touch.container p {
+        margin-bottom: 3%;
+    }
+}
