@@ -21,7 +21,7 @@ const Process = () => {
         <h2>Consultation</h2>
         <p>The first step in the process is to understand your needs and goals. Contact us today to schedule a consultation and take the first step towards creating your outstanding app! </p>
         <p>To proceed to the next phase of this process a retainer is required.</p> 
-        <p>Retainer price varies from <span className='retainer_price'>6000 - 8000</span> based on complexity of the app. </p> 
+        <p>Retainer price varies from <span className='retainer_price'>2500 - 3000</span> based on complexity of the app. </p> 
     </div>
     {
       isMobile ? <ImArrowDown size={30} /> : <ImArrowRight size={30} />
@@ -52,7 +52,7 @@ const Process = () => {
         }
         <h2>Finish Line</h2>
         <p>Alright the wait is finally over! Its time for us to hand over your breathtaking mobile app.</p>
-        <p>Prior to transferring ownership, we kindly request receipt of the final payment of <br /><span className="retainer_price">6000 - 8000</span>. </p>
+        <p>Prior to transferring ownership, we kindly request receipt of the final payment of <br /><span className="retainer_price">2500 - 3000</span>. </p>
     </div>
 </div>
   )
