@@ -49,6 +49,14 @@ export const images = {
             description: 'Beary Soft Organic'
         },
         {
+            id: '4',
+            image: 'https://res.cloudinary.com/dyzydm9nl/image/upload/v1701325189/Ever%20Last%20Apps/Screen_Shot_2023-11-30_at_1.19.00_AM_xoo4ue.png',
+            cloudName: 'dyzydm9nl',
+            name: 'Craig Mac Music',
+            redirect: 'https://craigmac-music.vercel.app/',
+            description: 'Craig Mac Music'
+        },
+        {
             id: '5',
             image: 'https://res.cloudinary.com/dyzydm9nl/image/upload/v1672457207/Ever%20Last%20Apps/reputationImage1_bznqma.png',
             cloudName: 'dyzydm9nl',
@@ -63,15 +71,7 @@ export const images = {
             name: 'Juwans Portfolio',
             redirect: 'https://juwanspov.netlify.app',
             description: 'Juwans portfolio'
-        },
-        {
-            id: '4',
-            image: 'https://res.cloudinary.com/dyzydm9nl/image/upload/v1672457209/Ever%20Last%20Apps/reputationImage2_lz0uxf.png',
-            cloudName: 'dyzydm9nl',
-            name: 'Stock X Clone',
-            redirect: 'https://stockxclone.netlify.app/',
-            description: 'Stock X Clone'
-        },
+        }
     ],
     careersImages: [
         {
