@@ -11,7 +11,7 @@ const Projects = ({reputationImages}) => {
   
   return (
     <div className='projects'>
-      <Works reputationImages={reputationImages} />
+    <Works reputationImages={reputationImages} />
       <Footer />
     </div>
   )
